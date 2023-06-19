@@ -1,0 +1,17 @@
+{
+    "name": "contractor/ics",
+    "require": {
+        "om/icalparser": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Contractor\\Ics\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Сергей Ефимов",
+            "email": "serge-yefimov@yandex.ru"
+        }
+    ]
+}

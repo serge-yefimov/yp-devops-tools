@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "79b904ba02fcca7b825f6e292cb00a5a",
+    "packages": [
+        {
+            "name": "om/icalparser",
+            "version": "v3.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OzzyCzech/icalparser.git",
+                "reference": "1481bc442a48cd1678291958b33efa22a628fb0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OzzyCzech/icalparser/zipball/1481bc442a48cd1678291958b33efa22a628fb0b",
+                "reference": "1481bc442a48cd1678291958b33efa22a628fb0b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "require-dev": {
+                "nette/tester": "^2.4"
+            },
+            "suggest": {
+                "ext-dom": "for timezone tool"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Ožana",
+                    "email": "roman@ozana.cz"
+                }
+            ],
+            "description": "Simple iCal parser",
+            "keywords": [
+                "calendar",
+                "ical",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/OzzyCzech/icalparser/issues",
+                "source": "https://github.com/OzzyCzech/icalparser/tree/v3.0.6"
+            },
+            "time": "2023-02-09T07:45:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
